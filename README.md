@@ -55,6 +55,9 @@ IronMind 是 Rukkit 的衍生作品，根据 GNU Affero General Public License v
 RW-HPS: https://github.com/LuoBoLong/RW-HPS
 Rukkit：https://github.com/RukkitDev/Rukkit
 
+## 具体模块
+AI模块使用以及参考了RW-HPS的设计
+
 ## 🙏 致谢
 [RukkitDev Team](https://github.com/RukkitDev/Rukkit) — 原始服务端框架
 [RW-HPS](https://github.com/LuoBoLong/RW-HPS) — RW-HPS 的 AI 实现
