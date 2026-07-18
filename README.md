@@ -4,13 +4,13 @@
 </div>
 
 > [!注意]
-> 此端以及其文档目前未经完善，会有大量的bug以及不可名状的事情出现。距离正式版还有很大的距离。目前尽量不要用。该项目截止到2026年7月18日刚立项5天左右，后面的有关于许可证以及wiki正在加紧施工，请再等待片刻 Eve
+> 我们找到了引擎入口 GameEe，但从代码片段看，引擎的初始化依赖于 RW-HPS 的完整网络框架（HessMain），直接移植到 Rukkit 相当于重写一个 RW-HPS。本项目关闭，于此公式。 Eve
 
 A Rukkit fork focused on vanilla mechanics, extensibility, and configurability.
 
 IronMind 是 [Rukkit](https://github.com/RukkitDev/Rukkit) 的一个分支，
 致力于在 Rusted Warfare（铁锈战争）服务端中**还原如同[Leafmc](https://github.com/Winds-Studio/Leaf)般流畅开服体验**。
-通过移植来自 [RW-HPS](https://github.com/deng-rui/RW-HPS) 的 AI 引擎，
+通过移植来自 [RW-HPS](https://github.com/deng-rui/RW-HPS) 的 AI 引擎(或addai,GameEe,AbstractGameModule实现)，
 IronMind 让 Rukkit 服务端也能运行完整的建造、生产、进攻逻辑，使 AI 不再是“木桩”。
 通过豆包,TraeAI,DeepSeek的强力驱动。
 完成Rukkit服务端的高度可配置
