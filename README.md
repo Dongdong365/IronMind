@@ -4,7 +4,7 @@
 </div>
 
 > [!注意]
-> 此端以及其文档目前未经完善，会有大量的bug以及不可名状的事情出现。距离正式版还有很大的距离。目前尽量不要用 Eve
+> 此端以及其文档目前未经完善，会有大量的bug以及不可名状的事情出现。距离正式版还有很大的距离。目前尽量不要用。该项目截止到2026年7月18日刚立项5天左右，后面的有关于许可证以及wiki正在加紧施工，请再等待片刻 Eve
 
 A Rukkit fork focused on vanilla mechanics, extensibility, and configurability.
 
