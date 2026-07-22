@@ -6,16 +6,19 @@
 > [!注意]
 > 我们找到了引擎入口 GameEe，但从代码片段看，引擎的初始化依赖于 RW-HPS 的完整网络框架（HessMain），直接移植到 Rukkit 相当于重写一个 RW-HPS。本项目关闭，于此公式。 Eve
 
-A Rukkit fork focused on vanilla mechanics, extensibility, and configurability.
+> A Rukkit fork focused on vanilla mechanics, extensibility, and configurability.
+> 基于 Rukkit 的分支，专注原版游戏机制、可拓展性与高度自定义配置。
+> 铁锈战争第三方独立服务端 | Custom Rusted Warfare Server
 
-IronMind 是 [Rukkit](https://github.com/RukkitDev/Rukkit) 的一个分支，
-致力于在 Rusted Warfare（铁锈战争）服务端中**还原如同[Leafmc](https://github.com/Winds-Studio/Leaf)般流畅开服体验**。
-通过移植来自 [RW-HPS](https://github.com/deng-rui/RW-HPS) 的 AI 引擎(或addai,GameEe,AbstractGameModule实现)，
-IronMind 让 Rukkit 服务端也能运行完整的建造、生产、进攻逻辑，使 AI 不再是“木桩”。
-通过豆包,TraeAI,DeepSeek的强力驱动。
+IronMind 是 Rukkit 的衍生分支，目标为铁锈战争服务端打造类似 [Leafmc](https://github.com/Winds-Studio/Leaf) 流畅易用的开服体验。
+
+本项目移植并参考 RW-HPS 的 AI 引擎（`AddAI` / `GameEe` / `AbstractGameModule` 实现），让原生 Rukkit 服务端拥有完整建造、生产、战术进攻逻辑，解决原版AI“木桩”问题。
+
 完成Rukkit服务端的高度可配置
+
 支持http代理
-支持 上列表..?(未完善，需要插件支持)
+
+支持 上列表..?(未完善，需插件支持)
 
 ## ✨ 特性
 
@@ -32,10 +35,11 @@ IronMind 让 Rukkit 服务端也能运行完整的建造、生产、进攻逻辑
   可以与云服务器搭配使用，极端情况下可以与部分免费云服供应商搭配。具体教程蓄势待发。
 
 - **一直维护**  
-  我们将持续推动该项目的崭新，为了平民玩家也能自开自给自足。
+  我们将持续推动该项目的崭新，为了各种玩家也能“自开自给自足”。
 
 - **AGPL v3 开源**  
   继承上游许可证，所有修改保持开放。
+
 
 ## 🚀 快速开始
 
@@ -63,7 +67,16 @@ AI模块使用以及参考了RW-HPS的设计
 [RW-HPS](https://github.com/LuoBoLong/RW-HPS) — RW-HPS 的 AI 实现
 Rusted Warfare 社区 — 逆向分析与测试支持
 
-## ⚠️ 注意事项
-本项目非官方，与 Corroding Games 无关。
-仅用于个人学习和研究。
-修改后的代码必须遵循 AGPL v3 协议开源。
+## ⚠️ 注意事项 及 重要声明
+1. 本项目为社区第三方开源服务端，**与 Corroding Games（铁锈战争官方）无任何关联**；
+2. 项目源代码遵循 AGPLv3 协议，源代码本身允许商业使用；
+3. 但基于原作游戏知识产权限制，**禁止将本项目用于搭建盈利性私服、商业联机服务**，仅可用于学习、研究、非盈利测试；
+4. 任何修改、公开部署的衍生版本，依据 AGPLv3 协议要求完整开源。
+
+
+
+
+
+
+
+
